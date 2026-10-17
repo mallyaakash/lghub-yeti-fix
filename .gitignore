@@ -1,0 +1,7 @@
+# Logitech/Blue firmware images are copyrighted; only their hashes are published.
+firmware/*.bin
+# Third-party binaries: get dfu-util from https://dfu-util.sourceforge.net/
+tools/
+# Scratch logs from later runs (the Phase 1 evidence log is kept on purpose)
+kill-ghub.log
+watch-mic.log

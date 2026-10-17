@@ -1,0 +1,47 @@
+{
+  "contents": [
+    {
+      "interfaceInfos": [
+        {
+          "interfaceId": "046d_0ab1",
+          "deviceInterfaceType": "DEVIO"
+        },
+        {
+          "interfaceId": "HID_046d_0ab1_ffff0001",
+          "deviceInterfaceType": "HIDIO",
+          "skipFwCheck": true,
+          "updatable": true
+        },
+        {
+          "interfaceId": "USB_b58e_0ab2_00",
+          "deviceInterfaceType": "HIDIO",
+          "skipFwCheck": true,
+          "updatable": true,
+          "force": true
+        },
+        {
+          "interfaceId": "HID_b58e_0005_ffff0001",
+          "deviceInterfaceType": "HIDIO",
+          "skipFwCheck": true,
+          "updatable": true,
+          "force": true
+        },
+        {
+          "interfaceId": "USB_b58e_0006_00",
+          "deviceInterfaceType": "HIDIO",
+          "skipFwCheck": true,
+          "updatable": true,
+          "force": true
+        }
+      ],
+      "version": "4.10",
+      "binaryFileKey": {
+        "key": "dfu_binary",
+        "hash": "74F0121ABF82B2660594823C9B43332ABCF4F63BE376D889C114ABC42347886F"
+      }
+    }
+  ],
+  "startBlockers": [],
+  "startWarnings": [],
+  "updateRequired": true
+}
